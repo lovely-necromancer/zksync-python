@@ -9,5 +9,6 @@ from .auth_types import *
 class ChainId(IntEnum):
     MAINNET = 1
     RINKEBY = 4
+    GOERLI = 5
     ROPSTEN = 3
     LOCALHOST = 9
